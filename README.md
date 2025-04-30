@@ -7,10 +7,14 @@ A machine learning–powered web application that predicts the likelihood of hea
 ________________________________________
 📊 Model Performance (LightGBM on SMOTE Data)
 Metric	Score
+
 Accuracy	89.7%
+
 Precision	89.6%
 Recall	89.7%
+
 F1 Score	89.6%
+
 ROC AUC Score	94.1%
 ________________________________________
 📌 Project Overview
