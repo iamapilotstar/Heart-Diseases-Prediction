@@ -152,14 +152,14 @@ This application predicts the likelihood of heart disease based on patient medic
 st.sidebar.header("📊 Model Performance")
 st.sidebar.markdown("""
 - **Algorithm Used:** LightGBM
-- **Best Accuracy:** 86.9%
-- **Precision** 89.2%	
+- **Best Accuracy:** 89.7%
+- **Precision** 89.6%	
 - **Recall** 93.4%	
 - **F1 Score** 91.3%
-- **ROC AUC Score:** 92.5%
+- **ROC AUC Score:** 94.1%
 """)
 
-st.subheader("📊 Top Features Impacting Heart Disease Prediction")
-feature_importance_path = "feature_importance.png"
-if os.path.exists(feature_importance_path):
-    st.image(Image.open(feature_importance_path), caption="Feature Importance", width=700)
+st.subheader("📊 SHAP ANALYSIS")
+SHAP_path = "SHAP.png"
+if os.path.exists(SHAP_path):
+    st.image(Image.open(SHAP_path), caption="Feature Importance", width=700)
