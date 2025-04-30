@@ -3,7 +3,7 @@
 A machine learning–powered web application that predicts the likelihood of heart disease using a trained LightGBM model based on clinical data.
 
 
-🔗 Live Demo: Click here
+🔗 Live Demo: https://heartdiseasesapp.streamlit.app/
 ________________________________________
 📊 Model Performance (LightGBM on SMOTE Data)
 Metric	Score
