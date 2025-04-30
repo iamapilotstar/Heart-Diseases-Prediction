@@ -1,4 +1,5 @@
-❤️ Heart Disease Prediction App
+**❤️ Heart Disease Prediction App**
+
 A machine learning–powered web application that predicts the likelihood of heart disease using a trained LightGBM model based on clinical data.
 
 
