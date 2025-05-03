@@ -45,8 +45,6 @@ Standardized using StandardScaler.
 4.	Prediction
 Model returns heart disease likelihood with a probability score.
 5.	Result Display
-Prediction shown along with bar chart visualization.
-⚠️ Borderline predictions (45%–55%) trigger a medical caution warning.
 ________________________________________
 🔍 Key Model Insights
 -	Cholesterol-Age Ratio and Oldpeak (ST Depression) are the top predictors.
