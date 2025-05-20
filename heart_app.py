@@ -11,7 +11,7 @@ st.set_page_config(page_title="❤️ Heart Disease Predictor & Insights", layou
 st.title("❤️ Heart Disease Prediction & Model Insights")
 st.markdown("🡸 **Use the sidebar on the left to switch between prediction and model insights.**")
 
-st.markdown("⬇️ **Scroll or Swipe down to see explanations**")
+st.markdown("⬇️ **Scroll or Swipe down below the images to see explanations**")
 
 st.markdown("⚠️ *This is a portfolio project. Please do not use it for real medical diagnosis or clinical decisions. Always consult a licensed medical professional.*")
 
