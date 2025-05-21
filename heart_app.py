@@ -9,9 +9,9 @@ from PIL import Image
 # Page Configuration
 st.set_page_config(page_title="❤️ Heart Disease Predictor & Insights", layout="wide")
 st.title("❤️ Heart Disease Prediction & Model Insights")
-st.markdown("** ⬅️ Use the sidebar on the left to switch between prediction and model insights.**")
+st.markdown("**⬅️ Use the sidebar on the left to switch between prediction and model insights.**")
 
-st.markdown("** ⬇️ Scroll or swipe down in the Model Insights section below the images to view detailed explanations.**")
+st.markdown("**⬇️ Scroll or swipe down in the Model Insights section below the images to view detailed explanations.**")
 
 st.markdown("⚠️ *This is a portfolio project. Please do not use it for real medical diagnosis or clinical decisions. Always consult a licensed medical professional.*")
 
