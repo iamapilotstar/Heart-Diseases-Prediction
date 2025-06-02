@@ -53,11 +53,11 @@ ________________________________________
 -	SHAP Visualizations provide transparency in both global and individual predictions.
 ________________________________________
 🚀 Features
-1.✅- Clean and interactive Streamlit UI
-2.✅- Real-time predictions with LightGBM
-3.✅- SHAP visualizations for interpretability
-4.✅- Borderline risk alerts for clinical relevance
-5.✅- Built for medical transparency and early risk screening
+✅- Clean and interactive Streamlit UI, 
+✅- Real-time predictions with LightGBM, 
+✅- SHAP visualizations for interpretability, 
+✅- Borderline risk alerts for clinical relevance, 
+✅- Built for medical transparency and early risk screening
 ________________________________________
 🛠️ Tech Stack
 -	Machine Learning: scikit-learn, LightGBM, SMOTE
