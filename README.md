@@ -56,7 +56,6 @@ ________________________________________
 ✅- Clean and interactive Streamlit UI, 
 ✅- Real-time predictions with LightGBM, 
 ✅- SHAP visualizations for interpretability, 
-✅- Borderline risk alerts for clinical relevance, 
 ✅- Built for medical transparency and early risk screening
 ________________________________________
 🛠️ Tech Stack
