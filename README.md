@@ -36,15 +36,15 @@ ________________________________________
 1.	User Input
 Age, cholesterol, ECG results, angina status, ST slope, etc.
 2.	Feature Engineering
-o	Cholesterol-to-Age Ratio
-o	MaxHR-to-Age Ratio
-o	RestingBP-to-Age Ratio
-o	Age Bracket Classification
-3.	Data Scaling
+Cholesterol-to-Age Ratio,
+MaxHR-to-Age Ratio,
+RestingBP-to-Age Ratio,
+Age Bracket Classification,
+4.	Data Scaling
 Standardized using StandardScaler.
-4.	Prediction
+5.	Prediction
 Model returns heart disease likelihood with a probability score.
-5.	Result Display
+6.	Result Display
 ________________________________________
 🔍 Key Model Insights
 -	Cholesterol-Age Ratio and Oldpeak (ST Depression) are the top predictors.
