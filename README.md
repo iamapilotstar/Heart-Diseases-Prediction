@@ -44,7 +44,7 @@ Age Bracket Classification,
 Standardized using StandardScaler.
 5.	Prediction
 Model returns heart disease likelihood with a probability score.
-6.	Result Display
+6.	Display the results
 ________________________________________
 🔍 Key Model Insights
 -	Cholesterol-Age Ratio and Oldpeak (ST Depression) are the top predictors.
