@@ -40,11 +40,11 @@ Cholesterol-to-Age Ratio,
 MaxHR-to-Age Ratio,
 RestingBP-to-Age Ratio,
 Age Bracket Classification,
-4.	Data Scaling
+3.	Data Scaling
 Standardized using StandardScaler.
-5.	Prediction
+4.	Prediction
 Model returns heart disease likelihood with a probability score.
-6.	Display the results
+5.	Display the results
 ________________________________________
 🔍 Key Model Insights
 -	Cholesterol-Age Ratio and Oldpeak (ST Depression) are the top predictors.
@@ -53,11 +53,11 @@ ________________________________________
 -	SHAP Visualizations provide transparency in both global and individual predictions.
 ________________________________________
 🚀 Features
-✅- Clean and interactive Streamlit UI
-✅- Real-time predictions with LightGBM
-✅- SHAP visualizations for interpretability
-✅- Borderline risk alerts for clinical relevance
-✅- Built for medical transparency and early risk screening
+1.✅- Clean and interactive Streamlit UI
+2.✅- Real-time predictions with LightGBM
+3.✅- SHAP visualizations for interpretability
+4.✅- Borderline risk alerts for clinical relevance
+5.✅- Built for medical transparency and early risk screening
 ________________________________________
 🛠️ Tech Stack
 -	Machine Learning: scikit-learn, LightGBM, SMOTE
