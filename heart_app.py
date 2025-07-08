@@ -170,7 +170,7 @@ elif view_option == "📊 Model Insights":
             if tab_key == "SHAP Summary":
                 with st.expander("Click to see detailed analysis"):
                     st.markdown("""
-                    - **SHAP – BEESWARM PLOT**
+                    **SHAP – BEESWARM PLOT**
                     - SHAP (SHapley Additive exPlanations) was used to interpret how each feature contributes to the model’s output.
                     - For instance, high cholesterol and typical angina significantly reduce the risk, while asymptomatic chest pain and oldpeak values tend to increase it.
                     - This ensures the model is not a black box and provides clinically valid justifications.
@@ -180,7 +180,7 @@ elif view_option == "📊 Model Insights":
             elif tab_key == "MaxHR vs Age":
                 with st.expander("Click to see detailed analysis"):
                     st.markdown("""
-                    - **AGE VS HEART RATE**
+                    **AGE VS HEART RATE**
                     - Analyzes how maximum heart rate achieved changes with age, stratified by heart disease presence.
                     - A clear downward trend shows patients with heart disease generally have lower HR and higher age which aids in identifying high-risk cases effectively.
                     - Useful for both feature engineering and medical insight.
@@ -189,7 +189,7 @@ elif view_option == "📊 Model Insights":
             elif tab_key == "Oldpeak Comparison":
                 with st.expander("Click to see detailed analysis"):
                     st.markdown("""
-                    - **INTERPRETING EXERCISE-INDUCED ST DEPRESSION (OLDPEAK)**
+                    **INTERPRETING EXERCISE-INDUCED ST DEPRESSION (OLDPEAK)**
                     - **Definition**: Oldpeak measures the depth of ST-segment depression during peak exercise compared to rest (in mm).
                     - **Significance**: Greater depression indicates myocardial ischemia – insufficient blood flow to cardiac muscle under load.
                     - **Observation**: The bar chart shows patients diagnosed with heart disease have, on average, 3x higher Oldpeak values than those without disease.
@@ -200,7 +200,7 @@ elif view_option == "📊 Model Insights":
             elif tab_key == "Resting BP Trend":
                 with st.expander("Click to see detailed analysis"):
                     st.markdown("""
-                    - **AGE VS BP**
+                    **AGE VS BP**
                     - Explores how resting blood pressure correlates with age and disease status.
                     - The upward trend indicates higher BP in older age groups, especially for patients with heart disease.
                     """)
@@ -208,7 +208,7 @@ elif view_option == "📊 Model Insights":
             elif tab_key == "ECG Results":
                 with st.expander("Click to see detailed analysis"):
                     st.markdown("""
-                    - **ECG VS PERCENTAGES**
+                    **ECG VS PERCENTAGES**
                     - Compares ECG outcomes (Normal, ST wave abnormality, LVH) with heart disease incidence.
                     - Reveals that left ventricular hypertrophy (LVH) is most associated with positive heart disease diagnoses.
                     - Helped ensure better model convergence.
@@ -217,7 +217,7 @@ elif view_option == "📊 Model Insights":
             elif tab_key == "Feature Importance":
                 with st.expander("Click to see detailed analysis"):
                     st.markdown("""
-                    - **FEATURE IMPORTANCE**
+                    **FEATURE IMPORTANCE**
                     - This plot highlights the top 20 most influential features ranked by importance in the LightGBM model.
                     - ChestPainType, Age, and Cholesterol levels emerged as critical predictors of heart disease.
                     - This visualization guided feature selection and reinforced clinical correlations.
@@ -227,7 +227,7 @@ elif view_option == "📊 Model Insights":
             elif tab_key == "Heatmap":
                 with st.expander("Click to see detailed analysis"):
                     st.markdown("""
-                    - **EVALUATING HEATMAP**
+                    **EVALUATING HEATMAP**
                     - This correlation heatmap displays the pairwise relationships between all features in the dataset.
                     - While it identified potential multicollinearity (e.g., between Cholesterol and Oldpeak), it was not addressed in this project since tree-based models like LightGBM are not sensitive to multicollinearity.
                     - In scenarios involving linear models, common techniques to handle multicollinearity include dropping redundant features or using Variance Inflation Factor (VIF) to filter out variables exceeding a set threshold.
@@ -237,7 +237,7 @@ elif view_option == "📊 Model Insights":
             elif tab_key == "Confusion Matrix":
                 with st.expander("Click to see detailed analysis"):
                     st.markdown("""
-                    - **EVALUATING CLASSIFICATION PERFORMANCE**
+                    **EVALUATING CLASSIFICATION PERFORMANCE**
                     - **True Positives (94)**: Correctly identified as diseased — strong sensitivity (recall ~92%).
                     - **True Negatives (71)**: Correctly identified as healthy — good specificity (~86%).
                     - **False Positives (11)**: Healthy patients flagged — acceptable in screening to avoid missing cases.
@@ -249,7 +249,7 @@ elif view_option == "📊 Model Insights":
             elif tab_key == "Waterfall":
                 with st.expander("Click to see detailed analysis"):
                     st.markdown("""
-                    - **SHAP – WATERFALL PLOT**
+                    **SHAP – WATERFALL PLOT**
                     - This SHAP waterfall plot explains a single prediction made by the model by breaking down how each feature increases or decreases the probability of predicting heart disease.
                     - Features like ExerciseAngina and ST_Slope_Up increased the risk prediction, while features like Fasting Blood Sugar (FastingBS) and Cholesterol-to-Age Ratio helped to lower it.
                     - The final prediction value (f(x) = 2.96) indicates a strong lean towards class 1 (Heart Disease) for this specific individual.
@@ -259,7 +259,7 @@ elif view_option == "📊 Model Insights":
             elif tab_key == "Distributions":
                 with st.expander("Click to see detailed analysis"):
                     st.markdown("""
-                    - **DISTRIBUTION OF FEATURES**
+                    **DISTRIBUTION OF FEATURES**
                     - This visualization shows the distribution of key numerical features such as Cholesterol, Resting Blood Pressure, Oldpeak, and others.
                     - It helps identify skewness, outliers, and overall data distribution patterns, which are crucial for making informed preprocessing decisions.
                     - For instance, highly skewed features may require log transformation, while the presence of outliers can influence the choice between mean vs. median imputation for handling missing values.
@@ -269,7 +269,7 @@ elif view_option == "📊 Model Insights":
             elif tab_key == "Class Distribution":
                 with st.expander("Click to see detailed analysis"):
                     st.markdown("""
-                    - **CLASS DISTRIBUTION**
+                    **CLASS DISTRIBUTION**
                     - This pie chart displays the class distribution of the dataset:
                     - 🟥 44.7% without heart disease
                     - 🟩 55.3% with heart disease
