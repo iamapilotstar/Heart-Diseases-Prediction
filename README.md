@@ -88,8 +88,4 @@ Heart-Diseases-Prediction/
 │
 ├── requirements.txt
 └── README.md
-vbnet
-Copy
-Edit
-
 
