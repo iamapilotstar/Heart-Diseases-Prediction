@@ -1,22 +1,29 @@
-**❤️ Heart Disease Prediction App**
+**❤️ HeartGuard: Real-Time ML Tool for Early Heart Disease Detection**
 
-A machine learning–powered web application that predicts the likelihood of heart disease using a trained LightGBM model based on clinical data.
+A machine learning–powered web application that predicts the likelihood of heart disease using a trained LightGBM model on clinical indicators. 
 
 
 🔗 Live Demo: https://heartdiseasesapp.streamlit.app/
+
+## 💡 The Problem
+Healthcare professionals need reliable, transparent tools for early heart disease detection to reduce missed diagnoses and improve patient outcomes through timely intervention.
+
+## 🔧 The Solution
+I built a real-time diagnostic application that predicts heart disease risk from clinical data (cholesterol, blood pressure, ECG results) using LightGBM with SHAP-based explanations for transparent medical reasoning.
+
+---
+
 ________________________________________
-📊 Model Performance (LightGBM on SMOTE Data)
-Metric	Score
+## 📌 Key Results
 
-Accuracy	89.7%
+- ✅ **Accuracy**: 89.7%  
+- ✅ **ROC AUC**: 94.1%  
+- ✅ **Precision**: 89.6%  
+- ✅ **Recall**: 89.7% (minimizing false negatives)  
+- ✅ **F1 Score**: 89.6%  
+- ⚠️ Optimized for early detection by prioritizing recall — missing a high-risk patient could be fatal.
 
-Precision	89.6%
-
-Recall	89.7%
-
-F1 Score	89.6%
-
-ROC AUC Score	94.1%
+---
 ________________________________________
 📌 Project Overview
 Cardiovascular disease is one of the leading global causes of death. This application helps in early screening and risk prediction using key medical indicators:
@@ -64,4 +71,23 @@ ________________________________________
 -	Data Processing: Pandas, NumPy
 -	Visualization: Plotly, Matplotlib, SHAP
 -	Deployment: Pickle, Streamlit Cloud / Local Hosting
+
+## 📁 Folder Structure
+
+Heart-Diseases-Prediction/
+│
+├── App and Analysis/
+│ ├── heart_app.py
+│ └── Heart_Diseases_Analysis.ipynb
+│
+├── Models/
+│ ├── LightGBM.pkl
+│ └── StandardScaler.pkl
+│
+├── Images/
+│ ├── Confusion Matrix.png
+│ └── (SHAP, heatmap, charts, etc.)
+│
+├── requirements.txt
+└── README.md
 
