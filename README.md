@@ -69,7 +69,5 @@ Model returns heart disease likelihood with a probability score.
 -	Visualization: Plotly, Matplotlib, SHAP
 -	Deployment: Pickle, Streamlit Cloud / Local Hosting
 
-## 📁 Folder Structure
-
-<pre> ```bash Heart-Diseases-Prediction/ │ ├── App and Analysis/ │ ├── heart_app.py │ └── Heart_Diseases_Analysis.ipynb │ ├── Models/ │ ├── LightGBM.pkl │ └── StandardScaler.pkl │ ├── Images/ │ ├── Confusion Matrix.png │ └── (SHAP, heatmap, charts, etc.) │ ├── requirements.txt └── README.md ``` </pre>
+<pre> ## 📁 Folder Structure ```bash Heart-Diseases-Prediction/ │ ├── App and Analysis/ │ ├── heart_app.py │ └── Heart_Diseases_Analysis.ipynb │ ├── Models/ │ ├── LightGBM.pkl │ └── StandardScaler.pkl │ ├── Images/ │ ├── Confusion Matrix.png │ └── (SHAP, heatmap, charts, etc.) │ ├── requirements.txt └── README.md ``` </pre>
 
