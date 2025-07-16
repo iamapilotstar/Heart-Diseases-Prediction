@@ -21,7 +21,7 @@ I built a real-time diagnostic application that predicts heart disease risk from
 - ⚠️ Optimized for early detection by prioritizing recall — missing a high-risk patient could be fatal.
 
 
-📌 Project Overview
+## 📌 Project Overview
 Cardiovascular disease is one of the leading global causes of death. This application helps in early screening and risk prediction using key medical indicators:
 -	Age & Age Bracket
 -	Serum Cholesterol (mg/dL)
@@ -35,7 +35,7 @@ Cardiovascular disease is one of the leading global causes of death. This applic
 -	Slope of the ST Segment
 These features are processed and fed into a trained LightGBM model to classify whether the patient is likely or unlikely to have heart disease.
 
-⚙️ How It Works
+## ⚙️ How It Works
 1.	User Input
 Age, cholesterol, ECG results, angina status, ST slope, etc.
 2.	Feature Engineering
@@ -49,20 +49,20 @@ Standardized using StandardScaler.
 Model returns heart disease likelihood with a probability score.
 5.	Display the results
    
-🔍 Key Model Insights
+## 🔍 Key Model Insights
 -	Cholesterol-Age Ratio and Oldpeak (ST Depression) are the top predictors.
 -	ST_Slope_Up is negatively correlated with disease presence.
 -	Exercise Angina and RestingBP show strong positive correlation with heart disease.
 -	SHAP Visualizations provide transparency in both global and individual predictions.
   
 
-🚀 Features
+## 🚀 Features
 ✅- Clean and interactive Streamlit UI, 
 ✅- Real-time predictions with LightGBM, 
 ✅- SHAP visualizations for interpretability, 
 ✅- Built for medical transparency and early risk screening
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 -	Machine Learning: scikit-learn, LightGBM, SMOTE
 -	Web Application: Streamlit
 -	Data Processing: Pandas, NumPy
