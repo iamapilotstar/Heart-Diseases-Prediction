@@ -20,7 +20,7 @@ ________________________________________
 - ✅ **Recall**: 89.7% (minimizing false negatives)  
 - ✅ **F1 Score**: 89.6%  
 - ⚠️ Optimized for early detection by prioritizing recall — missing a high-risk patient could be fatal.
-________________________________________
+
 
 📌 Project Overview
 Cardiovascular disease is one of the leading global causes of death. This application helps in early screening and risk prediction using key medical indicators:
