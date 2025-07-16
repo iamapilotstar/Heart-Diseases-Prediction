@@ -10,7 +10,6 @@ Healthcare professionals need reliable, transparent tools for early heart diseas
 
 ## 🔧 The Solution
 I built a real-time diagnostic application that predicts heart disease risk from clinical data (cholesterol, blood pressure, ECG results) using LightGBM with SHAP-based explanations for transparent medical reasoning.
-________________________________________
 
 ## 📌 Key Results
 
@@ -35,7 +34,7 @@ Cardiovascular disease is one of the leading global causes of death. This applic
 -	Exercise-Induced Angina
 -	Slope of the ST Segment
 These features are processed and fed into a trained LightGBM model to classify whether the patient is likely or unlikely to have heart disease.
-________________________________________
+
 ⚙️ How It Works
 1.	User Input
 Age, cholesterol, ECG results, angina status, ST slope, etc.
@@ -50,21 +49,19 @@ Standardized using StandardScaler.
 Model returns heart disease likelihood with a probability score.
 5.	Display the results
    
-________________________________________
 🔍 Key Model Insights
 -	Cholesterol-Age Ratio and Oldpeak (ST Depression) are the top predictors.
 -	ST_Slope_Up is negatively correlated with disease presence.
 -	Exercise Angina and RestingBP show strong positive correlation with heart disease.
 -	SHAP Visualizations provide transparency in both global and individual predictions.
   
-________________________________________
+
 🚀 Features
 ✅- Clean and interactive Streamlit UI, 
 ✅- Real-time predictions with LightGBM, 
 ✅- SHAP visualizations for interpretability, 
 ✅- Built for medical transparency and early risk screening
 
-________________________________________
 🛠️ Tech Stack
 -	Machine Learning: scikit-learn, LightGBM, SMOTE
 -	Web Application: Streamlit
