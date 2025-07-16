@@ -22,9 +22,9 @@ if view_option == "🔍 Predict":
     @st.cache_data
     def load_model_and_scaler():
         try:
-            with open("LightGBM.pkl", "rb") as f:
+            with open("Models/LightGBM.pkl", "rb") as f:
                 model = pickle.load(f)
-            with open("StandardScalar.pkl", "rb") as f:
+            with open("Models/StandardScalar.pkl", "rb") as f:
                 scaler = pickle.load(f)
             return model, scaler
         except:
@@ -142,17 +142,17 @@ elif view_option == "📊 Model Insights":
     st.markdown("### 📈 Deep Dive: How the Model Learns from Clinical Data")
 
     image_paths = {
-        "SHAP Summary": "SHAP.png",
-        "MaxHR vs Age": "Age Vs Heart.png",
-        "Oldpeak Comparison": "Age vs Old Peak.png",
-        "Resting BP Trend": "Blood Pressure.png",
-        "ECG Results": "ECG.png",
-        "Feature Importance": "feature_importance.png",
-        "Confusion Matrix": "Confusion Matrix.png",
-        "Waterfall": "Waterfall_shap.png",
-        "Heatmap": "Heatmap.png",
-        "Distributions": "Distribution.png",
-        "Class Distribution": 'Class Distribution.png'
+        "SHAP Summary": "Images/SHAP.png",
+        "MaxHR vs Age": "Images/Age Vs Heart.png",
+        "Oldpeak Comparison": "Images/Age vs Old Peak.png",
+        "Resting BP Trend": "Images/Blood Pressure.png",
+        "ECG Results": "Images/ECG.png",
+        "Feature Importance": "Images/feature_importance.png",
+        "Confusion Matrix": "Images/Confusion Matrix.png",
+        "Waterfall": "Images/Waterfall_shap.png",
+        "Heatmap": "Images/Heatmap.png",
+        "Distributions": "Images/Distribution.png",
+        "Class Distribution": 'Images/Class Distribution.png'
     }
 
     tab_labels = list(image_paths.keys())
