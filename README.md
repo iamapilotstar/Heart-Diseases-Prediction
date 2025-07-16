@@ -54,20 +54,6 @@ Model returns heart disease likelihood with a probability score.
 -	ST_Slope_Up is negatively correlated with disease presence.
 -	Exercise Angina and RestingBP show strong positive correlation with heart disease.
 -	SHAP Visualizations provide transparency in both global and individual predictions.
-  
-
-## 🚀 Features
-✅- Clean and interactive Streamlit UI, 
-✅- Real-time predictions with LightGBM, 
-✅- SHAP visualizations for interpretability, 
-✅- Built for medical transparency and early risk screening
-
-## 🛠️ Tech Stack
--	Machine Learning: scikit-learn, LightGBM, SMOTE
--	Web Application: Streamlit
--	Data Processing: Pandas, NumPy
--	Visualization: Plotly, Matplotlib, SHAP
--	Deployment: Pickle, Streamlit Cloud / Local Hosting
 
 ## 📁 Folder Structure
 
@@ -88,4 +74,20 @@ Heart-Diseases-Prediction/
 │
 ├── requirements.txt
 └── README.md
+  
+
+## 🚀 Features
+✅- Clean and interactive Streamlit UI, 
+✅- Real-time predictions with LightGBM, 
+✅- SHAP visualizations for interpretability, 
+✅- Built for medical transparency and early risk screening
+
+## 🛠️ Tech Stack
+-	Machine Learning: scikit-learn, LightGBM, SMOTE
+-	Web Application: Streamlit
+-	Data Processing: Pandas, NumPy
+-	Visualization: Plotly, Matplotlib, SHAP
+-	Deployment: Pickle, Streamlit Cloud / Local Hosting
+
+
 
