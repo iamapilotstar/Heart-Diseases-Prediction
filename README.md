@@ -4,7 +4,7 @@ A machine learning–powered web application that predicts the likelihood of hea
 
 🔗 Live Demo: https://heart-diseases-predictions.streamlit.app/
 
-🔗 Report: https://bit.ly/4eS77FV - Heart Disease Prediction.pdf
+🔗 Report: https://bit.ly/46iY2nn - Heart Disease Prediction.pdf
 
 ## 💡 The Problem
 Healthcare professionals need reliable, transparent tools for early heart disease detection to reduce missed diagnoses and improve patient outcomes through timely intervention.
