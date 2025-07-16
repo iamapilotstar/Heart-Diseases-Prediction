@@ -1,4 +1,4 @@
-## **❤️ HeartGuard: Real-Time ML Tool for Early Heart Disease Detection**
+# **❤️ HeartGuard: Real-Time ML Tool for Early Heart Disease Detection**
 
 A machine learning–powered web application that predicts the likelihood of heart disease using a trained LightGBM model on clinical indicators. 
 
