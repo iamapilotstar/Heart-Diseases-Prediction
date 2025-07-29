@@ -2,7 +2,7 @@
 
 A machine learning–powered web application that predicts the likelihood of heart disease using a trained LightGBM model on clinical indicators. 
 
-🔗 Live Demo: https://heart-diseases-prediction-44gd.onrender.com
+🔗 Live Demo: https://heart-diseases-prediction-esej.onrender.com
 
 🔗 Report: https://bit.ly/46iY2nn - Heart Disease Prediction.pdf
 
