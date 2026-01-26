@@ -2,9 +2,9 @@
 
 A machine learning–powered web application that predicts the likelihood of heart disease using a trained LightGBM model on clinical indicators. 
 
-🔗 Live Demo: https://heart-diseases-prediction-1r84.onrender.com
+🔗 **Live Demo:** [View App](https://heart-diseases-prediction-1r84.onrender.com)  
+📄 **Report:** [View Report](https://drive.google.com/file/d/1QsXjZpBG0nMD481CRclGkisjjCzS0yUE/view?usp=sharing)
 
-🔗 Report: https://bit.ly/46iY2nn - Heart Disease Prediction.pdf
 
 ## 💡 The Problem
 Healthcare professionals need reliable, transparent tools for early heart disease detection to reduce missed diagnoses and improve patient outcomes through timely intervention.
@@ -88,4 +88,5 @@ Heart-Diseases-Prediction/
 │
 ├── requirements.txt
 └── README.md
+
 
