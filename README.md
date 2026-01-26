@@ -58,11 +58,8 @@ Model returns heart disease likelihood with a probability score.
 
 ## Features
 - Clean and interactive Streamlit UI,
-- 
 - Real-time predictions with LightGBM,
-- 
 - SHAP visualizations for interpretability,
-- 
 - Built for medical transparency and early risk screening
 
 ## Tech Stack
@@ -91,6 +88,7 @@ Heart-Diseases-Prediction/
 │
 ├── requirements.txt
 └── README.md
+
 
 
 
