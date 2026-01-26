@@ -6,20 +6,20 @@ A machine learning–powered web application that predicts the likelihood of hea
 📄 **Report:** [View Report](https://drive.google.com/file/d/1QsXjZpBG0nMD481CRclGkisjjCzS0yUE/view?usp=sharing)
 
 
-## 💡 The Problem
+## The Problem
 Healthcare professionals need reliable, transparent tools for early heart disease detection to reduce missed diagnoses and improve patient outcomes through timely intervention.
 
-## 🔧 The Solution
+## The Solution
 I built a real-time diagnostic application that predicts heart disease risk from clinical data (cholesterol, blood pressure, ECG results) using LightGBM with SHAP-based explanations for transparent medical reasoning.
 
-## 📌 Key Results
+## Key Results
 
-- ✅ **Accuracy**: 89.7%  
-- ✅ **ROC AUC**: 94.1%  
-- ✅ **Precision**: 89.6%  
-- ✅ **Recall**: 89.7% (minimizing false negatives)  
-- ✅ **F1 Score**: 89.6%  
-- ⚠️ Optimized for early detection by prioritizing recall — missing a high-risk patient could be fatal.
+-  **Accuracy**: 89.7%  
+- **ROC AUC**: 94.1%  
+-  **Precision**: 89.6%  
+- **Recall**: 89.7% (minimizing false negatives)  
+- **F1 Score**: 89.6%  
+- Optimized for early detection by prioritizing recall — missing a high-risk patient could be fatal.
 
 
 ## 📌 Project Overview
@@ -36,7 +36,7 @@ Cardiovascular disease is one of the leading global causes of death. This applic
 -	Slope of the ST Segment
 These features are processed and fed into a trained LightGBM model to classify whether the patient is likely or unlikely to have heart disease.
 
-## ⚙️ How It Works
+## How It Works
 1.	User Input
 Age, cholesterol, ECG results, angina status, ST slope, etc.
 2.	Feature Engineering
@@ -50,26 +50,29 @@ Standardized using StandardScaler.
 Model returns heart disease likelihood with a probability score.
 5.	Display the results
    
-## 🔍 Key Model Insights
+## Key Model Insights
 -	Cholesterol-Age Ratio and Oldpeak (ST Depression) are the top predictors.
 -	ST_Slope_Up is negatively correlated with disease presence.
 -	Exercise Angina and RestingBP show strong positive correlation with heart disease.
 -	SHAP Visualizations provide transparency in both global and individual predictions.
 
-## 🚀 Features
-✅- Clean and interactive Streamlit UI, 
-✅- Real-time predictions with LightGBM, 
-✅- SHAP visualizations for interpretability, 
-✅- Built for medical transparency and early risk screening
+## Features
+- Clean and interactive Streamlit UI,
+- 
+- Real-time predictions with LightGBM,
+- 
+- SHAP visualizations for interpretability,
+- 
+- Built for medical transparency and early risk screening
 
-## 🛠️ Tech Stack
+## Tech Stack
 -	Machine Learning: scikit-learn, LightGBM, SMOTE
 -	Web Application: Streamlit
 -	Data Processing: Pandas, NumPy
 -	Visualization: Plotly, Matplotlib, SHAP
 -	Deployment: Pickle, Streamlit Cloud / Local Hosting
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```bash
 Heart-Diseases-Prediction/
@@ -88,5 +91,6 @@ Heart-Diseases-Prediction/
 │
 ├── requirements.txt
 └── README.md
+
 
 
